@@ -1,3 +1,2 @@
-﻿  Application.cpp
-C:\Engine\incoG\Creative\src\Application.cpp(8,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  CreativeApp.cpp
   Creative.vcxproj -> C:\Engine\incoG\bin\Debug-x64\Creative\Creative.exe
