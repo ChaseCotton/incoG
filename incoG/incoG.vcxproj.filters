@@ -27,9 +27,15 @@
     <ClInclude Include="src\incoG\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\incoG\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\incoG\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\incoG\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
