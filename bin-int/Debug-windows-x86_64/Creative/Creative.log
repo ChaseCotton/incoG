@@ -1,0 +1,6 @@
+﻿  CreativeApp.cpp
+C:\Engine\incoG\incoG\src\incoG\Log.h(18,42): warning C4251: 'incoG::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'incoG::Log'
+C:\Engine\incoG\incoG\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Engine\incoG\incoG\src\incoG\Log.h(19,42): warning C4251: 'incoG::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'incoG::Log'
+C:\Engine\incoG\incoG\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Creative.vcxproj -> C:\Engine\incoG\bin\Debug-windows-x86_64\Creative\Creative.exe
