@@ -19,6 +19,10 @@
     <ClInclude Include="src\incoG\Log.h">
       <Filter>incoG</Filter>
     </ClInclude>
+    <ClInclude Include="src\incoG\Events\Event.h" />
+    <ClInclude Include="src\incoG\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\incoG\Events\KeyEvent.h" />
+    <ClInclude Include="src\incoG\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\incoG\Application.cpp">

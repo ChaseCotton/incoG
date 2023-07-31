@@ -146,6 +146,10 @@
     <ClInclude Include="src\incoG\Application.h" />
     <ClInclude Include="src\incoG\Core.h" />
     <ClInclude Include="src\incoG\EntryPoint.h" />
+    <ClInclude Include="src\incoG\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\incoG\Events\Event.h" />
+    <ClInclude Include="src\incoG\Events\KeyEvent.h" />
+    <ClInclude Include="src\incoG\Events\MouseEvent.h" />
     <ClInclude Include="src\incoG\Log.h" />
   </ItemGroup>
   <ItemGroup>

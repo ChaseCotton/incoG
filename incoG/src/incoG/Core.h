@@ -9,3 +9,5 @@
 #else
 	#error incoG only supports Windows 64x
 #endif
+
+#define BIT(x) (1 << x)
