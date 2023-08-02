@@ -2,9 +2,6 @@
 
 #include "C:\Engine\incoG\incoG\src\incoG\Core.h"
 
-#include <string>
-#include <functional>
-
 namespace incoG {
 
 	// currently blocking

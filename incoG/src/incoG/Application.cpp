@@ -1,3 +1,4 @@
+#include "igpch.h"
 #include "Application.h"
 
 #include "C:\Engine\incoG\incoG\src\incoG\Events\ApplicationEvent.h"

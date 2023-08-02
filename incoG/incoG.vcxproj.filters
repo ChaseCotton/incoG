@@ -4,8 +4,12 @@
     <Filter Include="incoG">
       <UniqueIdentifier>{7512A90F-E126-D1C0-AAA8-7420167CCDF1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="incoG\Events">
+      <UniqueIdentifier>{B9C80C1E-A52B-9CC2-4EB1-D4783AF36745}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\igpch.h" />
     <ClInclude Include="src\incoG.h" />
     <ClInclude Include="src\incoG\Application.h">
       <Filter>incoG</Filter>
@@ -16,15 +20,24 @@
     <ClInclude Include="src\incoG\EntryPoint.h">
       <Filter>incoG</Filter>
     </ClInclude>
+    <ClInclude Include="src\incoG\Events\ApplicationEvent.h">
+      <Filter>incoG\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\incoG\Events\Event.h">
+      <Filter>incoG\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\incoG\Events\KeyEvent.h">
+      <Filter>incoG\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\incoG\Events\MouseEvent.h">
+      <Filter>incoG\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\incoG\Log.h">
       <Filter>incoG</Filter>
     </ClInclude>
-    <ClInclude Include="src\incoG\Events\Event.h" />
-    <ClInclude Include="src\incoG\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\incoG\Events\KeyEvent.h" />
-    <ClInclude Include="src\incoG\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\igpch.cpp" />
     <ClCompile Include="src\incoG\Application.cpp">
       <Filter>incoG</Filter>
     </ClCompile>

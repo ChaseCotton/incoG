@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace incoG {
 
 	class MouseMovedEvent : public Event
